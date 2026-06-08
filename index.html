@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — DigiSkills Academy</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%2300c2ff'/><text y='.9em' font-size='70' x='15'>🎓</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <nav>
+      <a href="index.html" class="logo">
+        <div class="logo-icon">🎓</div>
+        DigiSkills Academy
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="courses.html" class="nav-cta">Enroll Now</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- PAGE HERO -->
+  <main>
+    <section class="page-hero">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a> / <span>About</span>
+      </div>
+      <h1>About DigiSkills Academy</h1>
+      <p>We started with one mission: give every Nigerian the tools to thrive in the digital economy — regardless of background.</p>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section>
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-images">
+            <img
+              src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=700&q=80"
+              alt="DigiSkills Academy classroom — students collaborating on projects"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=400&q=80"
+              alt="Instructor leading a web development workshop"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=400&q=80"
+              alt="Students working on their laptops in the academy lab"
+            />
+          </div>
+
+          <div class="about-text">
+            <p class="section-label">Our Story</p>
+            <h2 class="section-title">Bridging the Digital Skills Gap in Nigeria</h2>
+            <p class="section-desc">
+              DigiSkills Academy was founded in 2020 by a group of tech professionals who saw a growing gap between what Nigerian graduates knew and what the job market actually needed.
+            </p>
+            <p style="color: var(--text-muted); margin-bottom:1.5rem; font-size:0.95rem; line-height:1.8;">
+              Since then, we've trained over 2,400 students across web development, design, data, and digital marketing — helping them land remote jobs, freelance clients, and even launch their own agencies. We teach from real experience, not textbooks.
+            </p>
+            <p style="color: var(--text-muted); font-size:0.95rem; line-height:1.8; margin-bottom:2rem;">
+              Our programs are designed to be accessible — whether you're a fresh graduate, a career changer, or a business owner who wants to understand the digital tools shaping the world.
+            </p>
+            <a href="courses.html" class="btn-primary">Explore Our Courses</a>
+
+            <div class="mv-grid">
+              <div class="mv-card">
+                <h4>🎯 Our Mission</h4>
+                <p>To equip every Nigerian with practical digital skills that open doors to opportunity, income, and independence in the global economy.</p>
+              </div>
+              <div class="mv-card">
+                <h4>🌟 Our Vision</h4>
+                <p>A Nigeria where digital literacy is a birthright — where talent, not geography or privilege, determines who builds the future.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VALUES -->
+    <section style="background: rgba(255,255,255,0.02);">
+      <div class="container">
+        <p class="section-label">Our Core Values</p>
+        <h2 class="section-title">What Drives Us</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">🔥</div>
+            <h3>Excellence</h3>
+            <p>We hold our curriculum and instructors to the highest standard. Average is not acceptable here.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🤲</div>
+            <h3>Inclusion</h3>
+            <p>Digital skills should be for everyone. We offer scholarships and flexible payment plans.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">⚡</div>
+            <h3>Innovation</h3>
+            <p>Our curriculum updates quarterly. You'll always be learning what the industry uses right now.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section>
+      <div class="container">
+        <div style="display:grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; text-align:center;">
+          <div style="background: var(--card-bg); border: 1px solid var(--card-border); border-radius: var(--radius); padding: 2rem;">
+            <strong style="display:block; font-size:2.2rem; color:var(--accent); font-family:'Syne',serif;">2,400+</strong>
+            <span style="color:var(--text-muted); font-size:0.85rem;">Students Trained</span>
+          </div>
+          <div style="background: var(--card-bg); border: 1px solid var(--card-border); border-radius: var(--radius); padding: 2rem;">
+            <strong style="display:block; font-size:2.2rem; color:var(--accent); font-family:'Syne',serif;">98%</strong>
+            <span style="color:var(--text-muted); font-size:0.85rem;">Employment Rate</span>
+          </div>
+          <div style="background: var(--card-bg); border: 1px solid var(--card-border); border-radius: var(--radius); padding: 2rem;">
+            <strong style="display:block; font-size:2.2rem; color:var(--accent); font-family:'Syne',serif;">15+</strong>
+            <span style="color:var(--text-muted); font-size:0.85rem;">Courses Available</span>
+          </div>
+          <div style="background: var(--card-bg); border: 1px solid var(--card-border); border-radius: var(--radius); padding: 2rem;">
+            <strong style="display:block; font-size:2.2rem; color:var(--accent); font-family:'Syne',serif;">5 ★</strong>
+            <span style="color:var(--text-muted); font-size:0.85rem;">Average Rating</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo" style="font-size:1.1rem;">
+          <div class="logo-icon" style="width:32px;height:32px;font-size:0.85rem;">🎓</div>
+          DigiSkills Academy
+        </a>
+        <p>Nigeria's premier digital skills training center. Empowering the next generation of tech professionals.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Courses</h4>
+        <ul>
+          <li><a href="courses.html">Web Development</a></li>
+          <li><a href="courses.html">Graphic Design</a></li>
+          <li><a href="courses.html">Data Analysis</a></li>
+          <li><a href="courses.html">UI/UX Design</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="https://developer.mozilla.org" target="_blank">MDN Docs</a></li>
+          <li><a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a></li>
+          <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 DigiSkills Academy. All rights reserved.</span>
+      <span>Built with ❤️ for Nigerian learners</span>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('navLinks').classList.toggle('open');
+    }
+  </script>
+</body>
+</html>
